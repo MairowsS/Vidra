@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Лабораторная работа</title>
+	<style>
+	body {margin: 0;
+      padding: 0;
+      background: url('bg.png') no-repeat center;
+      background-size: cover;
+      min-height: 100vh;
+    }
+	</style>
+	</head>
+	<body>
+		<center>
+			<h1>
+				<p style="color: white;">Площадь квадрата в студию!</p>
+			</h1>
+			<form oninput="result.value = cm.value * cm.value">
+			  <p style="color: white;">
+				Введите информацию про квадрат:
+				<input type="number" name="cm" id="cm" autofocus>
+			  </p>
+			  <p style="color: white;">
+				Площадь квадрата: 
+				<output name="result" id="result">0</output>
+			  </p>
+			</form>
+		</center>
+	</body>
+</html>
